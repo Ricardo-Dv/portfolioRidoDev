@@ -166,13 +166,15 @@ a:hover {
   margin-top: 50px;
 }
 
+.containerPrincipalSecciones{
+  margin-left: 2%;
+}
 /* About me and contact SECTION 1*/
 .left-col {
   float: left;
   margin: 0 auto;
   width: 60%;
   height: auto;
-  padding: 1%;
 }
 .left-col p{
 padding-top: 1%;
@@ -249,37 +251,29 @@ color: #000000;
 
 /* Portfolio ONE THIRD PADDING*/
 .one-third-padding {
-  width: 29%;
+  width: 30%;
   float: left;
-  margin: 2% 2%;
+  padding: 10px;
 }
 .one-third-padding h4, .one-third-padding-2 h4{
   text-align: center;
 }
-
 .one-third-padding img{
   height: 30%;
-
 }
-
 .one-third-padding img, .one-third-padding-2 img{
   box-shadow: black 1px 1px 5px;
   border-radius: 5px;
 }
-
 /* Portfolio ONE THIRD PADDING 2*/
 .one-third-padding-2 {
-  width: 29%;
+  width: 30%;
   float: left;
-  margin: 2% 2%;
-  margin-top: 0;
+  padding: 10px;
 }
-
 .one-third-padding-2 img{
   height: 60%;
 }
-
-/* SECTION 4*/
 
 .clearfix-padding {
   clear: both;
@@ -363,8 +357,8 @@ footer {
 }
 
 /* los hover de cada icono social */
-.social a .fa-envelope-square:hover{
-  color: #ffffff;
+.social a .fa-linkedin:hover{
+  color: #0e76a8;
 }
 
 .social a .fa-facebook-square:hover{
